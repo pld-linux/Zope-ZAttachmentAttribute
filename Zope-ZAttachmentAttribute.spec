@@ -8,7 +8,6 @@ License:	GPL
 Group:		Development/Tools
 Source0:	http://dl.sourceforge.net/ingeniweb/%{zope_subname}-%{version}.tar.gz
 # Source0-md5:	1a88288063cbd373e38470f4618ab7b0
-Patch0:		%{name}-fix_octectstream.patch
 URL:		http://sourceforge.net/projects/ingeniweb/
 %pyrequires_eq	python-modules
 Requires:	Zope
@@ -24,7 +23,6 @@ Produkt dla Zope do zarz±dzania za³±cznikami
 
 %prep
 %setup -q -n %{zope_subname}
-%patch0 -p1
 
 %build
 
