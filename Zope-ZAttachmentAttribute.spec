@@ -19,7 +19,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 A system to manage attachments within Zope objects.
 
 %description -l pl
-Produkt dla Zope do zarz±dzania za³±cznikami
+Produkt dla Zope do zarz±dzania za³±cznikami.
 
 %prep
 %setup -q -n %{zope_subname}
