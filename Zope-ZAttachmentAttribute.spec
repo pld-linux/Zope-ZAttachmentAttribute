@@ -1,6 +1,6 @@
 %define		zope_subname	ZAttachmentAttribute
 Summary:	A system to manage attachments within Zope objects
-Summary(pl):	Produkt dla Zope do zarz±dzania za³±cznikami
+Summary(pl.UTF-8):   Produkt dla Zope do zarzÄ…dzania zaÅ‚Ä…cznikami
 Name:		Zope-%{zope_subname}
 Version:	2.3
 Release:	1
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 A system to manage attachments within Zope objects.
 
-%description -l pl
-Produkt dla Zope do zarz±dzania za³±cznikami.
+%description -l pl.UTF-8
+Produkt dla Zope do zarzÄ…dzania zaÅ‚Ä…cznikami.
 
 %prep
 %setup -q -n %{zope_subname}
